@@ -1,0 +1,58 @@
+
+#hero-image{
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+    background-image: url(/assets/images/hero-image.jpg);
+}
+
+#border-div{
+    border: 5px solid goldenrod;
+    border-radius: 55px;
+}
+
+#header-div{
+    padding:20%;
+}
+
+#header-div h1, h3{
+    user-select: none;
+    font-family: 'Yellowtail', cursive;
+    margin: 0px; 
+}
+
+#header-div h1{
+    font-size: 380%;
+    font-family: 'Yellowtail', cursive;
+    margin: 0%;
+    user-select: none;
+}
+
+#header-div h3{
+    font-size: 60px;
+}
+
+#gift-cards{
+    text-align: center;
+}
+
+.gift-card-h1{
+    margin: 0%;
+    font-size: 60px;
+    font-family: 'Yellowtail', cursive;
+}
+
+.gift-card-h3{
+    font-family: 'Lora', serif;
+}
+
+#gift-card-text{
+    font-family: 'Lora', serif;
+}
+
+#gift-card-image{
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px 5px black;
+    margin: 1% 1% 2% 1%;
+}

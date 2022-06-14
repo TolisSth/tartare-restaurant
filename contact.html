@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width = device-width, initial-scale = 1.0"> 
+        <link rel="stylesheet" type="text/css" href="/assets/styles/common.css">
+        <link rel="stylesheet" type="text/css" href="/assets/styles/contact-style.css">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Yellowtail&display=swap" rel="stylesheet">   
+        <title>Tartare - Fine Dining</title>
+    </head>
+    <body>
+        <nav class="nav-bar-global">
+            <ul class="nav-link-list">
+                <!-- home will advertise gift cards -->
+                <li id="logo-li">
+                <a href="index.html"><img id="nav-bar-logo" src="/assets/images/logo.png" height="30" alt="Restaurant's logo"></a></li>
+                <li class="dropdown">
+                    <a href="about.html">About</a>
+                    <div class="dropdown-list">
+                        <a href="about.html#gallery">Gallery</a>
+                    </div>
+                </li> <!--add gallery here-->
+                <li class="dropdown">
+                    <a href="contact.html">Contact & Reservations</a>
+                    <div class="dropdown-list">
+                        <a href="contact.html#events">Events</a>
+                    </div>
+                </li> <!--add reservation and Events here-->
+                <li class="dropdown">
+                    <a href="menu.html">Menu</a>
+                    <div class="dropdown-list">
+                        <a href="menu.html#take-away">Take Away</a>
+                    </div>
+                </li> <!--add take-away-->
+            </ul> 
+        </nav>
+        <hr class="dif-hr">
+        <!-- page's content starts here  -->
+        <header id="contact-us-header">
+            <h1>Contact Reservations Events</h1>
+            <hr class="div-hr">
+            <h3>Book your event or a table or even sent us a message.</h3>
+        </header>
+        <section id="contact-or-res-selector">
+            <button id="contact-button">Contact</button>
+            <button id="reservation-button">Reservation</button>
+            <br>
+            <form action="/assets/scripts/contact_reg.php" id="contact-form">
+                <label for="full-name">Full name</label><br>
+                <input class="form-style" type="text" id="full-name"><br>
+                <br>
+                <label for="email">E-mail</label><br>
+                <input class="form-style" type="email" id="email"><br>
+                <br>
+                <label for="subject">Subject</label><br>
+                <input class="form-style" type="text" id="subject"><br>
+                <br>
+                <label for="special-request">Your message</label><br>
+                <textarea class="form-style" id="special-request" rows="5" cols="30"></textarea>
+                <br>
+                <input class="form-style" id="submit-button" type="submit">
+            </form>
+            <form action="reservation_reg.php" id="reservation-form" style="display: none;">
+                <label for="full-name">Full name</label><br>
+                <input class="form-style" type="email" id="full-name"><br>
+                <br>
+                <label for="email">E-mail</label><br>
+                <input class="form-style" type="text" id="email"><br>
+                <br>
+                <label for="phone-number">Phone number</label><br>
+                <input class="form-style" type="tel" id="phone-number" max="10"><br>
+                <br>
+                <label for="date">Pick reservation date</label><br>
+                <input class="form-style" type="date" id="date"><br>
+                <br>
+                <label for="time">Type reservation time (Opening hours: 19:30PM - 1:00AM)</label><br>
+                <input class="form-style" id="time" type="time"><br>
+                <br>
+                <label for="special-request">Special requests (optional)</label><br>
+                <textarea class="form-style" id="special-request" rows="5" cols="30"></textarea>
+                <br>
+                <input class="form-style" id="submit-button" type="submit">
+            </form>
+        </section>
+        <section id="events">
+            <h1 id="event-h1">Events</h1>
+            <hr class="div-hr">
+            <h3>Specifications:</h3>
+            <h3>ID</h3>
+            <hr class="seperators">
+            <p>Fine Dining</p>
+            <h3>Cuisine</h3>
+            <hr class="seperators">
+            <p> Traditional French / Modern Mediterranean</p>
+            <h3>Open</h3>
+            <hr class="seperators">
+            <p>Throughout the year</p>
+            <h3>Capacity</h3>
+            <hr class="seperators">
+            <p> Indoor 100 seated / Outdoor 60 seated </p>
+            <h3>Hour limitation</h3>
+            <hr class="seperators">
+            <p>12:00pm - 02:00am</p>
+            <h3>Parking</h3>
+            <hr class="seperators">
+            <p>Street parking available / Optional valet service</p>
+        </section>
+        <hr class="dif-hr">
+        <footer>
+            <img src="/assets/images/logo.png" alt="Restaurant's logo" height="30">
+            <p><a href="https://tolisdev.com/" target="_blank">with &#x2764; by Tolis</a><br>Copyright &copy; 2022 Tartare. All rights reserved.</p>
+        </footer>
+         <!-- script -->
+         <script src="/assets/scripts/contact-res-changer.js"></script>
+    </body>
+</html>

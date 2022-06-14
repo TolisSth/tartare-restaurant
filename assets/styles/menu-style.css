@@ -1,0 +1,52 @@
+#header-menu{
+    text-align: center;
+}
+
+#header-menu h1{
+    font-size: 380%;
+    font-family: 'Yellowtail', cursive;
+    margin: 0%;
+    user-select: none;
+}
+
+#header-menu h3{
+    font-family: 'Lora', serif;
+}
+
+#menu{
+    text-align: center;
+    font-family: 'Yellowtail', cursive ;
+}
+
+.menu-hr{
+    width: 50%;
+    border: 1px solid goldenrod; 
+}
+
+.catalog-items{
+    font-family: 'Lora', serif;
+}
+
+#take-away{
+    text-align: center;
+}
+
+#take-away h1{
+    font-size: 380%;
+    font-family: 'Yellowtail', cursive;
+    margin: 0%;
+    user-select: none;
+}
+
+#take-away h3{
+    font-family: 'Lora', serif;
+}
+
+#phone-number{
+    color: goldenrod;
+}
+
+#link-to-menu{
+    text-decoration: none;
+    color: goldenrod;
+}
